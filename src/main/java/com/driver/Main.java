@@ -9,10 +9,11 @@ public class Main {
     }
         public static class B extends A {
             public String meth(){
-                return "Method is overridden is Extendend in Extendend class B";
+                return "Method is overridden in Extendend class B";
             }
+
         }
-        public static void mani(String[]args){
+        public static void mani(String[] args){
             B b=new B();
             b.meth();
         }
